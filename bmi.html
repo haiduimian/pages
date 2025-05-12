@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BMI 计算器</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 左侧导航 -->
+  <div class="sidebar">
+    <h3>健康工具</h3>
+    <a href="index.html">返回主页</a>
+    <a href="other1.html">血压记录</a>
+    <a href="other2.html">饮水提醒</a>
+  </div>
+
+  <!-- BMI 计算器内容 -->
+  <div class="main">
+    <div class="container">
+      <h2>BMI 计算器</h2>
+      <label for="height">身高（厘米）:</label>
+      <input type="number" id="height" placeholder="请输入您的身高，如 170">
+      <label for="weight">体重（斤）:</label>
+      <input type="number" id="weight" placeholder="请输入您的体重，如 130">
+      <button onclick="calculateBMI()">开始计算</button>
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

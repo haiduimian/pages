@@ -1,0 +1,99 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(to right, #f9f9f9, #e2f0ff);
+  }
+  
+  /* 左侧导航栏样式 */
+  .sidebar {
+    width: 200px;
+    background-color: #0078d7;
+    color: white;
+    height: 100vh;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #005fa3;
+  }
+  
+  /* 右侧内容区域 */
+  .main {
+    margin-left: 200px;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 500px;
+    background: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #0078d7;
+  }
+  
+  label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
