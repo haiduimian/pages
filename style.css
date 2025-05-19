@@ -96,4 +96,13 @@ body {
     font-size: 18px;
     color: #333;
   }
-  
+      /* 添加响应式样式 */
+  @media (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      text-align: center;
+    }
+    .main {
+      padding: 10px;
+    }
+  }
